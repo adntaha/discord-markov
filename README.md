@@ -8,14 +8,15 @@ First of all, rename your data package to `package.zip` if it isn't already call
 Next, move it into `data/`
 
 After that, you'll want to run `compile` and `make_markov_chain` using:
-```sh
+
+```
 $ python compile.py
 $ python make_markov_chain.py
 ```
 
 Last of all, you'll want to run `generate_messages` and then tell it how many sentences you want, after which it will generate some.
 
-```sh
+```
 $ python generate_messages.py
 Reading Markov chain...
 How many messages do you want to generate? 1
