@@ -6,9 +6,7 @@ import csv
 package_path = Path("data/package.zip")
 
 removed = [
-    "getModule(",
-    "webpackJsonp.push",
-    "webpackChunkdiscord_app.push"
+    # put words you want excluded here
 ]
 
 
