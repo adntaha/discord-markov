@@ -1,6 +1,6 @@
 import markovify
 
-with open("data/model.json") as f:
+with open("data/model.json", encoding="utf-8") as f:
     print("Fetching saved Markov chain...")
     text_model = markovify.NewlineText.from_json(f.read())
     text_model = text_model.compile()
