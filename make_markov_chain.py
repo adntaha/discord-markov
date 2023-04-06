@@ -1,6 +1,6 @@
 import markovify
 
-with open("data/messages.txt") as f:
+with open("data/messages.txt", encoding="utf-8") as f:
     print("Reading messages...")
     text = f.read()
 
