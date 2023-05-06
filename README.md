@@ -7,10 +7,10 @@ Make a markov chain out of yourself, using your data package!
 First of all, rename your data package to `package.zip` if it isn't already called that.
 Next, move it into `data/`
 
-After that, you'll want to run `compile` and `make_markov_chain` using:
+After that, you'll want to run `compile_training_data` and `make_markov_chain` using:
 
 ```
-$ python compile.py
+$ python compile_training_data.py
 $ python make_markov_chain.py
 ```
 
